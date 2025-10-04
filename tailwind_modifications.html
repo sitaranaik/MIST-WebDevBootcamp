@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formula 1 Fan Page</title>
+
+  
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ferrari: '#FF0000',
+            mclaren: '#FF8700',
+            williams: '#004CFF',
+            redbull: '#FFD700'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+</head>
+
+
+<body class="relative font-sans text-white text-center bg-[url('images/track.jpg')] bg-cover bg-center bg-fixed bg-no-repeat">
+
+  
+  <div class="absolute inset-0 bg-black/60"></div>
+  <div class="relative z-10">
+
+  <header class="bg-red-600 p-5 text-3xl font-bold shadow-lg">
+    Formula 1 Fan Page
+    <nav class="mt-2">
+      <a href="#home" class="text-yellow-400 mx-4 font-semibold hover:underline">Home</a>
+      <a href="#teams" class="text-yellow-400 mx-4 font-semibold hover:underline">Teams</a>
+      <a href="#drivers" class="text-yellow-400 mx-4 font-semibold hover:underline">Drivers</a>
+    </nav>
+  </header>
+
+  
+  <section id="home" class="py-16 px-5">
+    <h1 class="text-4xl font-extrabold text-yellow-400 mb-4 drop-shadow-lg">
+      Welcome To The World Of Speed!
+    </h1>
+    <p class="text-cyan-300 text-lg">Feel the thrill of Formula 1 Racing with iconic teams and cars.</p>
+  </section>
+
+  
+<section id="teams" class="py-16 px-5 bg-black/60">
+
+    <h2 class="text-3xl font-bold text-yellow-400 mb-10 drop-shadow-md">Teams</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-4">
+      
+      <div
+        class="bg-red-900 bg-opacity-60 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-red-500/50 transition-transform">
+        <img src="images/Ferrari-SF-24.jpg" alt="Ferrari Car" class="w-full rounded-lg mb-4">
+        <h2 class="text-red-400 text-2xl font-bold">Ferrari</h2>
+        <p class="text-red-300">The legendary red team since 1950, with passion and speed.</p>
+      </div>
+
+      
+      <div
+        class="bg-gray-800 bg-opacity-60 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-cyan-400/40 transition-transform">
+        <img src="images/mercedes.jpg" alt="Mercedes Car" class="w-full rounded-lg mb-4">
+        <h2 class="text-gray-200 text-2xl font-bold">Mercedes</h2>
+        <p class="text-cyan-300">Power, precision, and dominance in the hybrid era.</p>
+      </div>
+
+      
+      <div
+        class="bg-yellow-700 bg-opacity-60 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-yellow-400/50 transition-transform">
+        <img src="images/redbull.jpg" alt="Red Bull Car" class="w-full rounded-lg mb-4">
+        <h2 class="text-yellow-400 text-2xl font-bold">Red Bull</h2>
+        <p class="text-yellow-300">Fast, fearless, and full of energy every season.</p>
+      </div>
+
+      
+      <div
+        class="bg-blue-900 bg-opacity-60 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-400/50 transition-transform">
+        <img src="images/williamsf1.jpg" alt="Williams Car" class="w-full rounded-lg mb-4">
+        <h2 class="text-blue-400 text-2xl font-bold">Williams</h2>
+        <p class="text-blue-300">A team with rich history, racing since 1977.</p>
+      </div>
+
+      
+      <div
+        class="bg-orange-800 bg-opacity-60 p-6 rounded-2xl shadow-lg hover:scale-105 hover:shadow-orange-400/50 transition-transform">
+        <img src="images/mclaren.jpg" alt="McLaren Car" class="w-full rounded-lg mb-4">
+        <h2 class="text-orange-400 text-2xl font-bold">McLaren</h2>
+        <p class="text-orange-300">The iconic orange team, blending innovation with blistering speed.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="drivers" class="py-16 px-5 bg-black bg-opacity-90">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-10 drop-shadow-md">Current Drivers</h2>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 px-4">
+      
+      <div
+        class="bg-red-900 bg-opacity-60 p-5 rounded-2xl shadow-lg hover:scale-105 hover:shadow-red-400/50 transition-transform">
+        <img src="images/charles.jpg" alt="Charles Leclerc" class="w-full rounded-lg mb-2">
+        <p class="text-red-300 font-semibold">Charles Leclerc — Ferrari</p>
+      </div>
+      <div
+        class="bg-red-900 bg-opacity-60 p-5 rounded-2xl shadow-lg hover:scale-105 hover:shadow-red-400/50 transition-transform">
+        <img src="images/lewis.jpg" alt="Lewis Hamilton" class="w-full rounded-lg mb-2">
+        <p class="text-red-300 font-semibold">Lewis Hamilton — Ferrari</p>
+      </div>
+
+      
+      <div
+        class="bg-gray-800 bg-opacity-60 p-5 rounded-2xl shadow-lg hover:scale-105 hover:shadow-cyan-300/50 transition-transform">
+        <img src="images/george.jpg" alt="George Russell" class="w-full rounded-lg mb-2">
+        <p class="text-cyan-300 font-semibold">George Russell — Mercedes</p>
+      </div>
+      <div
+        class="bg-gray-800 bg-opacity-60 p-5 rounded-2xl shadow-lg hover:scale-105 hover:shadow-cyan-300/50 transition-transform">
+        <img src="images/kimi.jpg" alt="Kimi Antonelli" class="w-full rounded-lg mb-2">
+        <p class="text-cyan-300 font-semibold">Kimi Antonelli — Mercedes</p>
+      </div>
+
+      
+      <div
+        class="bg-yellow-700 bg-opacity-60 p-5 rounded-2xl shadow-lg hover:scale-105 hover:shadow-yellow-400/50 transition-transform">
+        <img src="images/max.jpg" alt="Max Verstappen" class="w-full rounded-lg mb-2">
+        <p class="text-yellow-300 font-semibold">Max Verstappen — Red Bull</p>
+      </div>
+      <div
+        class="bg-yellow-700 bg-opacity-60 p-5 rounded-2xl shadow-lg hover:scale-105 hover:shadow-yellow-400/50 transition-transform">
+        <img src="images/yuki.jpg" alt="Yuki Tsunoda" class="w-full rounded-lg mb-2">
+        <p class="text-yellow-300 font-semibold">Yuki Tsunoda — Red Bull</p>
+      </div>
+
+    
+      <div
+        class="bg-blue-900 bg-opacity-60 p-5 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-400/50 transition-transform">
+        <img src="images/alex.jpg" alt="Alexander Albon" class="w-full rounded-lg mb-2">
+        <p class="text-blue-300 font-semibold">Alexander Albon — Williams</p>
+      </div>
+      <div
+        class="bg-blue-900 bg-opacity-60 p-5 rounded-2xl shadow-lg hover:scale-105 hover:shadow-blue-400/50 transition-transform">
+        <img src="images/carlos.jpg" alt="Carlos Sainz" class="w-full rounded-lg mb-2">
+        <p class="text-blue-300 font-semibold">Carlos Sainz — Williams</p>
+      </div>
+
+    
+      <div
+        class="bg-orange-800 bg-opacity-60 p-5 rounded-2xl shadow-lg hover:scale-105 hover:shadow-orange-400/50 transition-transform">
+        <img src="images/lando.jpg" alt="Lando Norris" class="w-full rounded-lg mb-2">
+        <p class="text-orange-300 font-semibold">Lando Norris — McLaren</p>
+      </div>
+      <div
+        class="bg-orange-800 bg-opacity-60 p-5 rounded-2xl shadow-lg hover:scale-105 hover:shadow-orange-400/50 transition-transform">
+        <img src="images/oscar.jpg" alt="Oscar Piastri" class="w-full rounded-lg mb-2">
+        <p class="text-orange-300 font-semibold">Oscar Piastri — McLaren</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="bg-black py-6 mt-10 text-yellow-400 font-semibold border-t border-yellow-400/30">
+    2025 Formula 1 Fan Page | Keep racing 🏁
+  </footer>
+
+  </div>
+</body>
+</html>
+
+
+</html>
